@@ -1,0 +1,42 @@
+id,question_en,type,verdict,verification_basis
+1,How will the weather be tomorrow in Olching?,Lookup,Correct,"Next-day forecast for Olching (high ~22C, low ~8C, ~30% precip). Real-time value; consistent with wetter.com / meteoblue at run time."
+2,Roughly how many inhabitants does Munich have?,Lookup,Correct,"Munich official population 1,612,429 (31.12.2025). Matches Statistisches Amt Munchen."
+3,Where does the DAX stand today?,Lookup,Correct,"DAX close 21.07.2026 ~25,011 pts, +0.7%. Confirmed against Handelsblatt (and a second engine)."
+4,What is the current EUR to US-dollar exchange rate?,Lookup,Correct,EUR/USD ~1.1418 on 21.07.2026 (ECB reference rate). Confirmed against finanzen / ARIVA.
+5,How high is the Zugspitze?,Lookup,Correct,"Zugspitze 2,962 m. Matches Bavarian State Surveying Office."
+6,How high is the contribution assessment ceiling (GKV) by now?,Lookup,Correct,"GKV contribution ceiling 2026 = EUR 69,750/yr (5,812.50/mo). Confirmed against Bundesregierung, GKV-SV, BMG."
+7,How high is the contribution assessment ceiling in the GKV 2026?,Lookup,Correct,"Ceiling EUR 69,750 + compulsory-insurance threshold EUR 77,400. Confirmed against krankenkassen.de, Bundesregierung."
+8,How high is the supplementary contribution of BKK Mobil Oil?,Lookup,Correct,BKK Mobil Oil (Mobil Krankenkasse) supplementary rate 3.89% (2026). Confirmed against mobil-krankenkasse.de.
+9,How high is BKK Mobil Oil's contribution rate and further benefits?,Lookup,Correct,BKK Mobil Oil 14.60% + 3.89% = 18.49% total. Confirmed against mobil-krankenkasse.de.
+10,How high is the current supplementary contribution of the SBK?,Lookup,Correct,SBK supplementary rate 3.80% since 01.08.2025 (total 18.40%). Confirmed against sbk.org.
+11,How did FC Bayern play most recently?,Lookup,Partially correct,"Core result correct: DFB-Pokal final 23.05.2026, Bayern 3:0 vs VfB Stuttgart. A goalscorer detail was inaccurate."
+12,Who is currently the Federal Health Minister?,Lookup,Correct,"Federal Health Minister: Nina Warken (CDU), since 06.05.2025. Confirmed against BMG / Bundesregierung."
+13,Which optional tariffs do other funds offer that the SBK does not have?,Open-ended,Complete & sufficient,"Comparative overview of optional tariffs (deductible, cost-reimbursement, GP-centred care, etc.). No single answer; response complete."
+14,Which programming languages should Data Scientists learn?,Open-ended,Complete & sufficient,"Recommendation (Python first, then R/SQL/etc.). Opinion-type question; response complete and reasonable."
+15,Which prices and delivery times can you find for an RTX?,Open-ended,Complete & sufficient,"RTX Pro 6000 Blackwell EU pricing ~EUR 12,499-12,999 with delivery notes. Time-varying market data; response sufficient and grounded."
+16,What are the opening hours of the Buergerbuero at Munich Marienplatz?,Lookup,Incorrect,The opening hours returned do not correspond to an actual office at the queried Marienplatz location.
+17,What info on the current law abolishing family insurance for spouses?,Lookup,Correct,GKV-BStabG passed 10.07.2026; Sec.242b surcharge mechanism. Core facts confirmed against official sources.
+18,What is happening regarding mergers of health insurance funds?,Lookup,Correct,Mergers: SBK+BKK Voralb (01.01.2026); IKK BB + IKK gesund plus (01.10.2026). Confirmed against fund announcements.
+19,What are the most important news in Germany today?,Open-ended,Complete & sufficient,Top German news 21.07.2026 (Spahn succession debate etc.). Editorial selection; matches SZ/other outlets.
+20,What does Section 16 SGB V regulate?,Lookup,Correct,Sec.16 SGB V governs suspension of benefit entitlement. Matches statute text (gesetze-im-internet).
+21,What does a Deutschlandticket cost currently?,Lookup,Correct,Deutschlandticket EUR 63 since 01.01.2026. Confirmed against Bundesregierung.
+22,What is the capital of Australia?,Lookup,Correct,Capital of Australia: Canberra (since 1927). Matches encyclopaedic sources.
+23,What concretely changed for us because of the Digital Act (DigiG)?,Lookup,Correct,"DigiG effects (ePA opt-out from 15.01.2025, e-prescription, etc.). Matches BMG."
+24,Do health funds now cover AI-based services?,Lookup,Partially correct,"Core correct: AI-based services are partly reimbursable in the GKV, case-by-case when integral to physician care. Caveat: the EU AI Act high-risk timing reflects the pre-2026 schedule - after the 2026 Digital Omnibus, medical-device AI (Annex I) applies from 2028 and standalone health AI (Annex III) from Dec 2027."
+25,Is it still true that the average supplementary contribution rate is...?,Lookup,Correct,Average GKV supplementary rate 2026 = 2.9%. Confirmed against BMG / GKV-Spitzenverband.
+26,Name three funds with a higher supplementary contribution than the SBK.,Open-ended,Complete & sufficient,"Names funds above SBK's rate (e.g. VIACTIV 4.19%, BKK24 4.39%). Confirmed against viactiv.de / bkk24.de."
+27,Do we now have to offer the electronic patient record (ePA)?,Lookup,Correct,ePA obligation for statutory funds since 15.01.2025 (Sec.342 SGB V). Matches statute.
+28,Has the latest care reform been fully implemented yet?,Lookup,Correct,Last adopted reform PUEG 2023; 2026 reform still in planning. Matches BMG.
+29,In which year was statutory health insurance introduced?,Lookup,Correct,Statutory health insurance introduced 1883. Matches historical record.
+30,Are there changes to the medical-aids law (Hilfsmittelrecht)?,Lookup,Correct,GVSG added Sec.33(5c) SGB V (in force 01.03.2025). Confirmed against gesetze-im-internet.
+31,Is the Techniker Krankenkasse reachable by phone 24/7?,Lookup,Correct,TK reachable by phone 24/7 (0800 285 85 85). Matches tk.de.
+32,Has anything changed about fixed amounts (Festbetraege) due to inflation?,Lookup,Correct,Festbetrage adjustments effective 01.04.2026 (65 groups adjusted etc.). Confirmed against GKV-SV.
+33,Has the G-BA recently decided anything on telemedicine?,Lookup,Correct,"Confirmed: G-BA decision 20.03.2025 on digital DMPs (dDMP) for Diabetes Type 1/2 - ePA, e-medication plan, video consultation and secure transmission under Sec.311(6) SGB V (KIM/TIM); not yet in force pending BMG. Matches g-ba.de."
+34,Are there changes at the Buergergeld / health insurance interface?,Lookup,Correct,Burgergeld renamed Grundsicherungsgeld 01.07.2026; GKV unchanged. Confirmed against Bundesregierung.
+35,Are there currently state funding programs in healthcare?,Lookup,Correct,"Hospital Transformation Fund up to EUR 50bn (2026-2035, KHAG). Confirmed against official sources."
+36,Do special regulations from the pandemic still apply?,Lookup,Partially correct,"Core correct: most pandemic special rules have expired by 2026. Caveat: enhanced Kinderkrankengeld (15 days/child) was extended into 2026 (Pflege-Entburokratisierungsgesetz, BGBl 29.12.2025) and telephone sick-notes became permanent (since 01.07.2024) - both pandemic-origin measures that continue."
+37,G-BA decision on psychotherapy - what changed recently?,Lookup,Correct,"G-BA psychotherapy decision 19.03.2026, in force 17.06.2026 (digitalisation). Confirmed against g-ba.de."
+38,Recent publicly reported changes to drug rebate contracts?,Lookup,Correct,Sec.130a SGB V amended (eff. 02/03.07.2026 via BStabG). Confirmed against buzer.de / BGBl.
+39,Was there recently an important ruling on cost coverage (cannabis)?,Lookup,Correct,LSG Hamburg ruling 26.02.2026 (L 1 KR 87/24 WA) on cannabis coverage. Confirmed against case record.
+40,Is the medication Entresto affected by a supply shortage?,Lookup,Correct,Entresto not listed in BfArM shortage database (July 2026). Confirmed against bfarm.de.
+41,By when does the current deadline for submitting the DMP documentation run?,Lookup,Partially correct,Core date correct (Q2/2026 DMP submission 10.07.2026); nuance on soft target vs binding reimbursement deadline.

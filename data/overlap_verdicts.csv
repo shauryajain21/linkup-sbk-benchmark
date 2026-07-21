@@ -1,0 +1,42 @@
+id,question_en,claude_vs_linkup,gemini_vs_linkup,chatgpt_vs_linkup,all_three_agree_at_least_partial
+1,How will the weather be tomorrow in Olching?,PARTIAL,PARTIAL,PARTIAL,yes
+2,Roughly how many inhabitants does Munich have?,MATCH,PARTIAL,PARTIAL,yes
+3,Where does the DAX stand today?,MATCH,MATCH,DIFF,no
+4,What is the current EUR to US-dollar exchange rate?,PARTIAL,MATCH,MATCH,yes
+5,How high is the Zugspitze?,MATCH,PARTIAL,MATCH,yes
+6,How high is the contribution assessment ceiling (GKV) by now?,MATCH,MATCH,MATCH,yes
+7,How high is the contribution assessment ceiling in the GKV 2026?,MATCH,MATCH,MATCH,yes
+8,How high is the supplementary contribution of BKK Mobil Oil?,PARTIAL,PARTIAL,PARTIAL,yes
+9,How high is BKK Mobil Oil's contribution rate and further benefits?,MATCH,MATCH,MATCH,yes
+10,How high is the current supplementary contribution of the SBK?,MATCH,MATCH,PARTIAL,yes
+11,How did FC Bayern play most recently?,MATCH,MATCH,MATCH,yes
+12,Who is currently the Federal Health Minister?,MATCH,MATCH,MATCH,yes
+13,Which optional tariffs do other funds offer that the SBK does not have?,MATCH,MATCH,MATCH,yes
+14,Which programming languages should Data Scientists learn?,MATCH,MATCH,MATCH,yes
+15,Which prices and delivery times can you find for an RTX?,PARTIAL,PARTIAL,PARTIAL,yes
+16,What are the opening hours of the Buergerbuero at Munich Marienplatz?,DIFF,DIFF,DIFF,no
+17,What info on the current law abolishing family insurance for spouses?,PARTIAL,MATCH,MATCH,yes
+18,What is happening regarding mergers of health insurance funds?,MATCH,MATCH,MATCH,yes
+19,What are the most important news in Germany today?,DIFF,PARTIAL,DIFF,no
+20,What does Section 16 SGB V regulate?,MATCH,MATCH,MATCH,yes
+21,What does a Deutschlandticket cost currently?,MATCH,MATCH,MATCH,yes
+22,What is the capital of Australia?,MATCH,MATCH,MATCH,yes
+23,What concretely changed for us because of the Digital Act (DigiG)?,MATCH,MATCH,MATCH,yes
+24,Do health funds now cover AI-based services?,PARTIAL,PARTIAL,DIFF,no
+25,Is it still true that the average supplementary contribution rate is...?,MATCH,MATCH,MATCH,yes
+26,Name three funds with a higher supplementary contribution than the SBK.,MATCH,PARTIAL,DIFF,no
+27,Do we now have to offer the electronic patient record (ePA)?,MATCH,MATCH,MATCH,yes
+28,Has the latest care reform been fully implemented yet?,MATCH,MATCH,MATCH,yes
+29,In which year was statutory health insurance introduced?,MATCH,MATCH,MATCH,yes
+30,Are there changes to the medical-aids law (Hilfsmittelrecht)?,MATCH,MATCH,PARTIAL,yes
+31,Is the Techniker Krankenkasse reachable by phone 24/7?,MATCH,MATCH,MATCH,yes
+32,Has anything changed about fixed amounts (Festbetraege) due to inflation?,PARTIAL,PARTIAL,PARTIAL,yes
+33,Has the G-BA recently decided anything on telemedicine?,PARTIAL,PARTIAL,PARTIAL,yes
+34,Are there changes at the Buergergeld / health insurance interface?,MATCH,MATCH,MATCH,yes
+35,Are there currently state funding programs in healthcare?,DIFF,DIFF,DIFF,no
+36,Do special regulations from the pandemic still apply?,PARTIAL,PARTIAL,PARTIAL,yes
+37,G-BA decision on psychotherapy - what changed recently?,MATCH,MATCH,MATCH,yes
+38,Recent publicly reported changes to drug rebate contracts?,PARTIAL,PARTIAL,PARTIAL,yes
+39,Was there recently an important ruling on cost coverage (cannabis)?,PARTIAL,PARTIAL,PARTIAL,yes
+40,Is the medication Entresto affected by a supply shortage?,MATCH,MATCH,MATCH,yes
+41,By when does the current deadline for submitting the DMP documentation run?,DIFF,DIFF,DIFF,no
